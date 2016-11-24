@@ -52,7 +52,7 @@ window.addEventListener('deviceorientation', function(eventData) {
     xTilt = -(xTilt + 80);
   }
 
-  var backgroundPositionValue = yTilt + 'px ' + xtilt + "px";
+  var backgroundPositionValue = yTilt + 'px ' + xTilt + "px";
 
   background.style.backgroundPosition = backgroundPositionValue;
 }, false);
