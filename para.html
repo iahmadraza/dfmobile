@@ -46,9 +46,9 @@ window.addEventListener('deviceorientation', function(eventData) {
 
   // Thi 'if' statement checks if the phone is upside down and corrects
   // the value that is returned.
-  if (xTilt &amp;gt; 0) {
+  if (xTilt > 0) {
     xTilt = -xTilt;
-  } else if (xTilt &amp;lt; -40) {
+  } else if (xTilt < -40) {
     xTilt = -(xTilt + 80);
   }
 
